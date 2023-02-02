@@ -1,0 +1,9 @@
+version: '3'
+services:
+  go-ec-api:
+    build:
+        context: ./app
+        dockerfile: ./Dockerfile
+    ports:
+      - 8080:8080
+    tty: true
