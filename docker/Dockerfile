@@ -1,6 +1,6 @@
 FROM golang:1.19.5-alpine3.17
 
-WORKDIR /go/src
+WORKDIR /go/src/
 
 COPY ./src/ /go/src/
 
